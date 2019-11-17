@@ -1,2 +1,2 @@
-<mat-card [@stateChange]="isNormal ? 'normal' : 'red'" class="elemento" (click)="deleteElement()">{{elementoDeLista}}
+<mat-card [@stateChange]="state()" class="elemento" (click)="deleteElement()">{{elementoDeLista}}
 </mat-card>

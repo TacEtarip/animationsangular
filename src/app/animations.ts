@@ -21,9 +21,9 @@ export const changeAtState =
     state('normal', style({ backgroundColor: 'yellow' })),
     state('red', style({ backgroundColor: 'red' })),
     transition('normal <=> red', [
-      animate(1000)
+      animate('1000ms ease')
     ]),
     transition('void => *',
-      [animate(1500)])
+      [animate('1500ms ease-in')])
   ]);
 

@@ -18,6 +18,11 @@ export class ElementoDeListaComponent implements OnInit {
   ngOnInit() {
   }
 
+  state() {
+    if (this.isNormal) { return 'normal'; }
+    return 'red';
+  }
+
   deleteElement() {
 
     this.isNormal = !this.isNormal;
