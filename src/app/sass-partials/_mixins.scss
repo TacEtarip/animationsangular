@@ -1,0 +1,4 @@
+@mixin classicCenter($centerWidht: 50em) {
+  width: $centerWidht;
+  margin: 0 auto;
+}
